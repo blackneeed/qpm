@@ -9,7 +9,7 @@ fn main() {
             RepoCommands::Add { name, url } => {}
             RepoCommands::Remove { name } => {}
             RepoCommands::List => {}
-            RepoCommands::Update {} => {}
+            RepoCommands::Update => {}
         },
     }
 }
